@@ -82,7 +82,7 @@ class ucf_college_huge_title_acf_pro_fields {
                             array(
                                 'param'    => 'post_taxonomy',
                                 'operator' => '==',
-                                'value'    => 'ucf_shortcode_category:' . self::shortcode,
+                                'value'    => 'ucf_college_shortcode_category:' . self::shortcode,
                             ),
                         ),
                     ),
