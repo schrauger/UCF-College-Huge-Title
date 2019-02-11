@@ -1,0 +1,28 @@
+.generic-divider {
+	background: $yellow url('http://local.nursing.ucf.edu/wp-content/uploads/2018/11/ucf_11934751.jpg') center center;
+	padding: 100px 0;
+	overflow: auto;
+
+	.generic-cta {
+		font-size: 68px;
+		width: 65%;
+		padding: 1%;
+		color: white;
+		margin-right: 50px;
+		display: block;
+		letter-spacing: -5px;
+		background: rgba(0,0,0,.8);
+		float: left;
+	}
+
+	.large-button {
+		display: block;
+		background: $yellow;
+		width: 300px;
+		padding: 26px;
+		float: left;
+		font-size: 28px;
+		text-align: center;
+		cursor: pointer;
+	}
+}
