@@ -1,7 +1,8 @@
 .generic-divider {
   background: rgba(0, 0, 0, 0.8) url("http://local.nursing.ucf.edu/wp-content/uploads/2018/11/ucf_11934751.jpg") center center;
   padding: 100px 0;
-  overflow: auto; }
+  overflow: auto;
+  margin: 50px 0; }
   .generic-divider .generic-cta {
     font-size: 68px;
     width: 65%;
@@ -16,6 +17,8 @@
     display: block;
     background: rgba(0, 0, 0, 0.8);
     width: 300px;
+    color: #000;
+    text-decoration: none;
     padding: 26px;
     float: left;
     font-size: 28px;

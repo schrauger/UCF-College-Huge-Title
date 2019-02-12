@@ -58,7 +58,7 @@ class ucf_college_huge_title_shortcode {
         $background_image_url = get_field('background_image_url');
         
         $replacement_data .= "
-<div class='generic-divider' style='background-image: url(\"{$background_image_url}\")'>
+<div class='generic-divider' style='background-image: url(\"{$background_image_url}\"); background-size: cover;'>
     <div class='container'>
         <h2 class='generic-cta'>{$title_text}</h2>
         <a class='large-button' href={$button_url}>{$button_text}</a>

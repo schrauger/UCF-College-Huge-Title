@@ -4,6 +4,7 @@ $yellow: rgba(0,0,0,.8);
 	background: $yellow url('http://local.nursing.ucf.edu/wp-content/uploads/2018/11/ucf_11934751.jpg') center center;
 	padding: 100px 0;
 	overflow: auto;
+	margin: 50px 0;
 
 	.generic-cta {
 		font-size: 68px;
@@ -21,6 +22,8 @@ $yellow: rgba(0,0,0,.8);
 		display: block;
 		background: $yellow;
 		width: 300px;
+		color: #000;
+		text-decoration: none;
 		padding: 26px;
 		float: left;
 		font-size: 28px;
