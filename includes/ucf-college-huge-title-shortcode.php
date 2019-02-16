@@ -57,13 +57,16 @@ class ucf_college_huge_title_shortcode {
         $button_url = get_field('button_url');
         $background_image_url = get_field('background_image_url');
         
-        $replacement_data .= "
+        $replacement_data .= "</article>
+        </div>
 <div class='generic-divider' style='background-image: url(\"{$background_image_url}\"); background-size: cover;'>
     <div class='container'>
         <h2 class='generic-cta'>{$title_text}</h2>
         <a class='large-button' href={$button_url}>{$button_text}</a>
     </div>
 </div>
+<div class=\"container mb-5 mt-3 mt-lg-5\">
+<article class=\"publish post-list-item\">
 
         ";
         return $replacement_data;

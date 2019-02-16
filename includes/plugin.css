@@ -1,5 +1,5 @@
 .generic-divider {
-  background: rgba(0, 0, 0, 0.8) url("http://local.nursing.ucf.edu/wp-content/uploads/2018/11/ucf_11934751.jpg") center center;
+  background: #000;
   padding: 100px 0;
   overflow: auto;
   margin: 50px 0; }
@@ -15,7 +15,7 @@
     float: left; }
   .generic-divider .large-button {
     display: block;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 204, 0, 0.8);
     width: 300px;
     color: #000;
     text-decoration: none;
