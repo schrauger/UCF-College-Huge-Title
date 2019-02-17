@@ -65,8 +65,8 @@ class ucf_college_huge_title_shortcode {
         <a class='large-button' href={$button_url}>{$button_text}</a>
     </div>
 </div>
-<div class=\"container mb-5 mt-3 mt-lg-5\">
-<article class=\"publish post-list-item\">
+<div class='container mb-5 mt-3 mt-lg-5'>
+<article class='publish post-list-item'>
 
         ";
         return $replacement_data;
