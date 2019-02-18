@@ -1,9 +1,11 @@
 body.home.page-template-default {
   overflow-x: hidden;
   overflow-y: scroll; }
-  body.home.page-template-default .full-width {
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw); }
+  body.home.page-template-default article.publish {
+    overflow: visible; }
+    body.home.page-template-default article.publish .full-width {
+      margin-left: calc(50% - 50vw);
+      margin-right: calc(50% - 50vw); }
 
 .generic-divider {
   background: #000000;
