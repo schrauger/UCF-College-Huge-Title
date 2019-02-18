@@ -1,3 +1,7 @@
+.full-width {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw); }
+
 .generic-divider {
   background: #000;
   padding: 100px 0;
@@ -24,3 +28,5 @@
     font-size: 28px;
     text-align: center;
     cursor: pointer; }
+
+/*# sourceMappingURL=plugin.css.map */
