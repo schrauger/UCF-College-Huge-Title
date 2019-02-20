@@ -1,9 +1,9 @@
-body.home.page-template-default {
+body {
   overflow-x: hidden;
   overflow-y: scroll; }
-  body.home.page-template-default article.publish {
+  body article {
     overflow: visible; }
-    body.home.page-template-default article.publish .full-width {
+    body article .full-width {
       margin-left: calc(50% - 50vw);
       margin-right: calc(50% - 50vw); }
 
