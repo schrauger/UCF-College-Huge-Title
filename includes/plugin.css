@@ -1,9 +1,9 @@
 body {
   overflow-x: hidden;
   overflow-y: scroll; }
-  body article {
+  body article.publish {
     overflow: visible; }
-    body article .full-width {
+    body article.publish .full-width {
       margin-left: calc(50% - 50vw);
       margin-right: calc(50% - 50vw); }
 
