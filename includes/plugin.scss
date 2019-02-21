@@ -22,13 +22,11 @@ body {
 	margin: 50px 0;
 
 	.generic-cta {
-		font-size: 68px;
 		width: 65%;
 		padding: 1%;
 		color: white;
 		margin-right: 50px;
 		display: block;
-		letter-spacing: -5px;
 		background: rgba(0, 0, 0, .8);
 		float: left;
 	}
@@ -41,8 +39,20 @@ body {
 		text-decoration: none;
 		padding: 26px;
 		float: left;
-		font-size: 28px;
+		font-size: 24px;
 		text-align: center;
 		cursor: pointer;
+	}
+}
+
+@media (max-width: 1000px) {
+	
+}
+
+@media (max-width: 768px) { 
+	.generic-divider {
+		.generic-cta {
+			width: 100%;
+		}
 	}
 }
