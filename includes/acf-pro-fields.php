@@ -26,7 +26,7 @@ class ucf_college_huge_title_acf_pro_fields {
                             'key'               => 'field_5c59f76dd011c',
                             'label'             => 'Title Text',
                             'name'              => 'title_text',
-                            'type'              => 'text',
+                            'type'              => 'wysiwyg',
                             'instructions'      => '',
                             'required'          => 0,
                             'conditional_logic' => 0,

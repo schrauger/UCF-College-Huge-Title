@@ -56,12 +56,16 @@ class ucf_college_huge_title_shortcode {
         $button_text = get_field('button_text');
         $button_url = get_field('button_url');
         $background_image_url = get_field('background_image_url');
+        $button_hider = "";
+        if (!$button_text) {
+            $button_hider = "button-hidden"; // hide the button if no text
+        }
         
         $replacement_data .= "
 <div class='generic-divider full-width' style='background-image: url(\"{$background_image_url}\"); background-size: cover;'>
     <div class='container'>
         <h2 class='generic-cta'>{$title_text}</h2>
-        <a class='large-button' href={$button_url}>{$button_text}</a>
+        <a class='large-button {$button_hider}' href={$button_url}>{$button_text}</a>
     </div>
 </div>
         ";
