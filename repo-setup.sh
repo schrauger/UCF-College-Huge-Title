@@ -12,7 +12,6 @@
 parent_path=$( cd "$(dirname "${BASH_SOURCE}")" ; pwd -P )
 cd "$parent_path"
 
-
 # Get current remotes
 REMOTES=$(git remote -v)
 
