@@ -2,7 +2,7 @@
 /*
 Plugin Name: UCF College Huge Title
 Description: Provides a shortcode for huge title, to be used in the UCF Colleges Theme
-Version: 1.0
+Version: 1.0.1
 Author: Stephen Schrauger
 Plugin URI: https://github.com/schrauger/UCF-College-Huge-Title
 Github Plugin URI: schrauger/UCF-College-Huge-Title
@@ -29,24 +29,27 @@ class ucf_college_huge_title {
     }
 
     function add_css(){
-        wp_enqueue_style(
-            'ucf-college-huge-title-style',
-            plugin_dir_url(__FILE__) . '/includes/plugin.css',
-            false,
-            filemtime( plugin_dir_path(__FILE__).'/includes/plugin.css'),
-            false
-        );
+	    if (file_exists(plugin_dir_path(__FILE__).'/includes/plugin.css')) {
+		    wp_enqueue_style(
+			    'ucf-college-huge-title-style',
+			    plugin_dir_url( __FILE__ ) . '/includes/plugin.css',
+			    false,
+			    filemtime( plugin_dir_path( __FILE__ ) . '/includes/plugin.css' ),
+			    false
+		    );
+	    }
     }
 
     function add_js(){
-
-        wp_enqueue_script(
-            'ucf-college-huge-title-script',
-            plugin_dir_url(__FILE__) . 'includes/plugin.js',
-            false,
-            filemtime( plugin_dir_path(__FILE__).'/includes/plugin.js'),
-            false
-        );
+    	if (file_exists(plugin_dir_path(__FILE__).'/includes/plugin.js')) {
+		    wp_enqueue_script(
+			    'ucf-college-huge-title-script',
+			    plugin_dir_url( __FILE__ ) . 'includes/plugin.js',
+			    false,
+			    filemtime( plugin_dir_path( __FILE__ ) . '/includes/plugin.js' ),
+			    false
+		    );
+	    }
     }
     
     
