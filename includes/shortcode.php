@@ -2,7 +2,7 @@
 
 class ucf_college_huge_title_shortcode {
     const shortcode_slug = 'ucf_college_huge_title'; // the shortcode text entered by the user (inside square brackets)
-    const shortcode_name = 'Huge Title';
+    const shortcode_name = 'Huge Title (deprecated - use blocks)';
     const shortcode_description = 'Huge title with content below';
     //const get_param_group = 'people_group'; // group or category person is in
 
