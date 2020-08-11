@@ -53,6 +53,7 @@ class ucf_college_huge_title_shortcode {
         $replacement_data = ''; //string of html to return
 
         $title_text = get_field('title_text');
+//        $title_text = $title_text ? $title_text : "Fill in title on right hand side";
         $button_text = get_field('button_text');
         $button_url = get_field('button_url');
         $background_image_url = get_field('background_image_url');
