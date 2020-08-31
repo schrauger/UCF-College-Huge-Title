@@ -25,7 +25,7 @@ class ucf_college_huge_title_acf_pro_fields {
 			                           'description'		=> __('Huge title with content below'),
 			                           'render_callback'	=> array('ucf_college_huge_title_shortcode','replacement_print'),
 			                           'category'			=> 'layout',
-			                           'icon'				=> 'screenoptions',
+			                           'icon'				=> 'heading',
 			                           'keywords'			=> array( 'ucf','college','huge','title' ),
 		                           ));
 	        }
