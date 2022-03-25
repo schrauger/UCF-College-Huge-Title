@@ -2,7 +2,7 @@
 /*
 Plugin Name: UCF College Huge Title
 Description: Provides a shortcode for huge title, to be used in the UCF Colleges Theme
-Version: 1.2.0
+Version: 1.3.0
 Author: Stephen Schrauger
 Plugin URI: https://github.com/schrauger/UCF-College-Huge-Title
 Github Plugin URI: schrauger/UCF-College-Huge-Title
